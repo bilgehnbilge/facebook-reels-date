@@ -50,3 +50,7 @@ Veri şu kaynaklardan toplanır:
 
 - Yalnızca `facebook.com/reel/...` adresli sayfalarda çalışır; ana akıştaki gömülü reels'lerde rozet çıkmaz.
 - Facebook veri yapısını değiştirirse eşleştirme mantığının güncellenmesi gerekebilir.
+
+## Lisans
+
+[MIT](LICENSE)
