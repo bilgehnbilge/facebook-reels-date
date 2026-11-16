@@ -1,0 +1,38 @@
+.rd-badge {
+  position: absolute;
+  top: 64px;
+  left: 12px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  max-width: calc(100% - 24px);
+  padding: 6px 12px 6px 10px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.55);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  user-select: none;
+  pointer-events: auto;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.rd-badge:hover { background: rgba(0, 0, 0, 0.72); }
+.rd-badge svg { flex: none; opacity: 0.9; }
+.rd-badge .rd-main { overflow: hidden; text-overflow: ellipsis; }
+.rd-badge .rd-rel {
+  font-weight: 400;
+  opacity: 0.8;
+  padding-left: 6px;
+  border-left: 1px solid rgba(255, 255, 255, 0.35);
+}
+.rd-badge.rd-loading { opacity: 0.75; font-weight: 400; }
+.rd-badge.rd-missing { opacity: 0.6; font-weight: 400; }
+.rd-badge.rd-copied { background: #0866ff; transform: scale(0.97); }
