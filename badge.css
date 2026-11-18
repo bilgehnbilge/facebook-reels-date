@@ -35,4 +35,8 @@
 }
 .rd-badge.rd-loading { opacity: 0.75; font-weight: 400; }
 .rd-badge.rd-missing { opacity: 0.6; font-weight: 400; }
+.rd-badge.rd-ig {
+  top: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
 .rd-badge.rd-copied { background: #0866ff; transform: scale(0.97); }
